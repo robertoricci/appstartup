@@ -39,6 +39,7 @@ gensim==3.8.3
 gitdb==4.0.9
 GitPython==3.1.27
 greenlet==1.1.2
+hidapi==0.11.2
 idna @ file:///tmp/build/80754af9/idna_1637925883363/work
 importlib-metadata @ file:///C:/ci/importlib-metadata_1638543108096/work
 ipykernel @ file:///C:/ci/ipykernel_1633545574250/work/dist/ipykernel-6.4.1-py3-none-any.whl
@@ -93,6 +94,7 @@ pycodestyle @ file:///tmp/build/80754af9/pycodestyle_1636635402688/work
 pycosat==0.6.3
 pycparser @ file:///tmp/build/80754af9/pycparser_1636541352034/work
 pydeck==0.7.1
+pyev3==0.0.5
 pyflakes @ file:///tmp/build/80754af9/pyflakes_1636644436481/work
 Pygments @ file:///opt/conda/conda-bld/pygments_1644249106324/work
 pyLDAvis==3.3.1
