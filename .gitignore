@@ -1,0 +1,17 @@
+
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+.mypy_cache
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+desenv/
