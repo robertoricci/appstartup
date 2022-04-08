@@ -50,13 +50,14 @@ data = get_data()
 model = train_model()
 
 # título
-st.title("Indicação de Investimento em Startup com GradientBoosting- By Roberto Carlos Ricci")
+st.title(
+    "Indicação de Investimento em Startup com GradientBoosting    - By Roberto Carlos Ricci   [![Linkedin Badge](https://img.shields.io/badge/-%40robertoricci-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/roberto-carlos-ricci)](https://www.linkedin.com/in/roberto-carlos-ricci/)")
 
 # subtítulo
 st.markdown("Este é um Aplicativo utilizado para exibir a solução de Ciência de Dados para o problema de Investimentos em Startups em Venture Capital.")
 
-st.sidebar.subheader(
-    "Insira os Dados dos Indicadores da Startup Avaliada ")
+
+st.sidebar.subheader("Insira os Dados dos Indicadores da Startup Avaliada ")
 
 # mapeando dados do usuário para cada atributo
 Indice_Faturamento = st.sidebar.number_input(
