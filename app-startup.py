@@ -9,7 +9,7 @@ import streamlit as st
 def get_data():
     return pd.read_csv("venture_capital.csv")
 
-st.set_page_config(page_title="Q&A Generator", page_icon="🎈")
+st.set_page_config(page_title="AppStartup", page_icon="🎈")
 
 
 # função para treinar o modelo
